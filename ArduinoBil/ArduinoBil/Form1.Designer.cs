@@ -38,6 +38,7 @@
             this.AngleBox = new System.Windows.Forms.TextBox();
             this.SetAngleButton = new System.Windows.Forms.Button();
             this.setSpeedButton = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.SpeedBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ServoSlider)).BeginInit();
             this.SuspendLayout();
@@ -179,6 +180,7 @@
         private System.Windows.Forms.TextBox AngleBox;
         private System.Windows.Forms.Button SetAngleButton;
         private System.Windows.Forms.Button setSpeedButton;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 

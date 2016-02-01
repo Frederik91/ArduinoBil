@@ -122,16 +122,6 @@ namespace ArduinoBil
             }
         }
 
-        private void SpeedBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void AngleBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void setSpeedButton_Click(object sender, EventArgs e)
         {
             try
@@ -158,6 +148,11 @@ namespace ArduinoBil
             {
                 AngleBox.Text = "Invalid";
             }
+        }
+
+        private void sendStringBtn_Click(object sender, EventArgs e)
+        {
+            _arduinoPort.WriteLine("t");
         }
     }
 }

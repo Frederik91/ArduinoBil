@@ -44,9 +44,10 @@
             // 
             // toggleConnectBtn
             // 
-            this.toggleConnectBtn.Location = new System.Drawing.Point(139, 9);
+            this.toggleConnectBtn.Location = new System.Drawing.Point(104, 7);
+            this.toggleConnectBtn.Margin = new System.Windows.Forms.Padding(2);
             this.toggleConnectBtn.Name = "toggleConnectBtn";
-            this.toggleConnectBtn.Size = new System.Drawing.Size(104, 23);
+            this.toggleConnectBtn.Size = new System.Drawing.Size(78, 19);
             this.toggleConnectBtn.TabIndex = 0;
             this.toggleConnectBtn.Text = "Connect";
             this.toggleConnectBtn.UseVisualStyleBackColor = true;
@@ -55,70 +56,76 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(467, 12);
+            this.label1.Location = new System.Drawing.Point(350, 10);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 17);
+            this.label1.Size = new System.Drawing.Size(40, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Status:";
             // 
             // StatusLabel
             // 
             this.StatusLabel.AutoSize = true;
-            this.StatusLabel.Location = new System.Drawing.Point(525, 12);
+            this.StatusLabel.Location = new System.Drawing.Point(394, 10);
+            this.StatusLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.StatusLabel.Name = "StatusLabel";
-            this.StatusLabel.Size = new System.Drawing.Size(94, 17);
+            this.StatusLabel.Size = new System.Drawing.Size(73, 13);
             this.StatusLabel.TabIndex = 2;
             this.StatusLabel.Text = "Disconnected";
             // 
             // cbPorts
             // 
             this.cbPorts.FormattingEnabled = true;
-            this.cbPorts.Location = new System.Drawing.Point(12, 9);
+            this.cbPorts.Location = new System.Drawing.Point(9, 7);
+            this.cbPorts.Margin = new System.Windows.Forms.Padding(2);
             this.cbPorts.Name = "cbPorts";
-            this.cbPorts.Size = new System.Drawing.Size(121, 24);
+            this.cbPorts.Size = new System.Drawing.Size(92, 21);
             this.cbPorts.TabIndex = 3;
             this.cbPorts.SelectedIndexChanged += new System.EventHandler(this.cbPorts_SelectedIndexChanged);
             // 
             // SpeedBar
             // 
-            this.SpeedBar.Location = new System.Drawing.Point(12, 39);
+            this.SpeedBar.Location = new System.Drawing.Point(9, 32);
+            this.SpeedBar.Margin = new System.Windows.Forms.Padding(2);
             this.SpeedBar.Maximum = 255;
             this.SpeedBar.Name = "SpeedBar";
             this.SpeedBar.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.SpeedBar.Size = new System.Drawing.Size(56, 243);
+            this.SpeedBar.Size = new System.Drawing.Size(45, 197);
             this.SpeedBar.TabIndex = 4;
             this.SpeedBar.Scroll += new System.EventHandler(this.SpeedBar_Scroll);
             // 
             // ServoSlider
             // 
-            this.ServoSlider.Location = new System.Drawing.Point(74, 118);
-            this.ServoSlider.Maximum = 179;
+            this.ServoSlider.Location = new System.Drawing.Point(56, 96);
+            this.ServoSlider.Margin = new System.Windows.Forms.Padding(2);
+            this.ServoSlider.Maximum = 162;
             this.ServoSlider.Name = "ServoSlider";
-            this.ServoSlider.Size = new System.Drawing.Size(243, 56);
+            this.ServoSlider.Size = new System.Drawing.Size(182, 45);
             this.ServoSlider.TabIndex = 5;
             this.ServoSlider.Scroll += new System.EventHandler(this.ServoSlider_Scroll);
             // 
             // SpeedBox
             // 
-            this.SpeedBox.Location = new System.Drawing.Point(61, 246);
+            this.SpeedBox.Location = new System.Drawing.Point(46, 200);
+            this.SpeedBox.Margin = new System.Windows.Forms.Padding(2);
             this.SpeedBox.Name = "SpeedBox";
-            this.SpeedBox.Size = new System.Drawing.Size(63, 22);
+            this.SpeedBox.Size = new System.Drawing.Size(48, 20);
             this.SpeedBox.TabIndex = 6;
-            this.SpeedBox.TextChanged += new System.EventHandler(this.SpeedBox_TextChanged);
             // 
             // AngleBox
             // 
-            this.AngleBox.Location = new System.Drawing.Point(157, 90);
+            this.AngleBox.Location = new System.Drawing.Point(118, 73);
+            this.AngleBox.Margin = new System.Windows.Forms.Padding(2);
             this.AngleBox.Name = "AngleBox";
-            this.AngleBox.Size = new System.Drawing.Size(63, 22);
+            this.AngleBox.Size = new System.Drawing.Size(48, 20);
             this.AngleBox.TabIndex = 7;
-            this.AngleBox.TextChanged += new System.EventHandler(this.AngleBox_TextChanged);
             // 
             // SetAngleButton
             // 
-            this.SetAngleButton.Location = new System.Drawing.Point(227, 89);
+            this.SetAngleButton.Location = new System.Drawing.Point(170, 72);
+            this.SetAngleButton.Margin = new System.Windows.Forms.Padding(2);
             this.SetAngleButton.Name = "SetAngleButton";
-            this.SetAngleButton.Size = new System.Drawing.Size(63, 23);
+            this.SetAngleButton.Size = new System.Drawing.Size(47, 19);
             this.SetAngleButton.TabIndex = 8;
             this.SetAngleButton.Text = "Set";
             this.SetAngleButton.UseVisualStyleBackColor = true;
@@ -126,9 +133,10 @@
             // 
             // setSpeedButton
             // 
-            this.setSpeedButton.Location = new System.Drawing.Point(139, 245);
+            this.setSpeedButton.Location = new System.Drawing.Point(104, 199);
+            this.setSpeedButton.Margin = new System.Windows.Forms.Padding(2);
             this.setSpeedButton.Name = "setSpeedButton";
-            this.setSpeedButton.Size = new System.Drawing.Size(63, 23);
+            this.setSpeedButton.Size = new System.Drawing.Size(47, 19);
             this.setSpeedButton.TabIndex = 9;
             this.setSpeedButton.Text = "Set";
             this.setSpeedButton.UseVisualStyleBackColor = true;
@@ -136,9 +144,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(629, 280);
+            this.ClientSize = new System.Drawing.Size(472, 228);
             this.Controls.Add(this.setSpeedButton);
             this.Controls.Add(this.SetAngleButton);
             this.Controls.Add(this.AngleBox);
@@ -149,6 +157,7 @@
             this.Controls.Add(this.StatusLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.toggleConnectBtn);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.SpeedBar)).EndInit();
